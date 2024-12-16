@@ -105,4 +105,31 @@ Utilization Factor (U.F)=
 Area of Core/
 Area of Netlist
 ​
+- A higher utilization factor indicates efficient use of the chip's space.
+- A lower utilization factor suggests that there is unused area in the core.
+
+---
+
+## Aspect Ratio
+
+The **Aspect Ratio** refers to the ratio of the height(length) to the width of the die. It provides insight into the shape of the chip die and can affect the placement and routing of components.
+
+### Formula:
+**Aspect Ratio = Height of core / Width of core**
+
+- An aspect ratio close to 1 (square-shaped) is preferred for better routing and efficient use of space.
+- A higher or lower aspect ratio may lead to challenges in the layout design.
+
+---
+
+## Floorplanning and Placement
+
+In the context of ASIC design, **Floorplanning** and **Placement** are essential stages of chip design.
+
+- **Floorplanning** defines the high-level layout of functional blocks on the chip.
+- **Placement** determines the exact locations of individual cells within the die, optimizing space and signal routing.
+
+These steps ensure that the chip meets performance, power, and area constraints while minimizing signal delays and power consumption.
+
+---
 
