@@ -74,9 +74,9 @@ package require openlane
 
 The **Flop Ratio** is calculated using the following formula:
 
-\[
-\text{Flop Ratio} = \frac{\text{Number of D Flip-Flops}}{\text{Total Cells}}
-\]
+```math
+Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
+```
 
 Where:  
 - **D Flip-Flops (DFF)** = 1613  
@@ -84,9 +84,10 @@ Where:
 
 Thus, the **Flop Ratio** is:
 
-\[
-\text{Flop Ratio} = \frac{1613}{14876} \approx 0.108
-\]
+```math
+Flop\ Ratio = \frac{1613}{14876}
+```
+ = 0.1084 or 10.84% 
 
 ### **Flop Ratio Calculation Diagram**
 ![Flop Ratio Calculation Diagram](https://github.com/user-attachments/assets/2579b133-df62-4c7f-bf49-1a492e7226af)
