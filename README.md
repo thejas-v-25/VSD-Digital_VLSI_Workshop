@@ -66,3 +66,4 @@ docker
 
 # Load OpenLane package
 package require openlane
+'''bash
