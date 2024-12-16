@@ -65,5 +65,4 @@ docker
 ./flow.tcl -interactive
 
 # Load OpenLane package
-package require openlane
-'''
+package require openlane '''
