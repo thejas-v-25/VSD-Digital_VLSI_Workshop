@@ -93,4 +93,16 @@ Flop\ Ratio = \frac{1613}{14876}
 ### **Flop Ratio Calculation Diagram**
 ![Flop Ratio Calculation Diagram](https://github.com/user-attachments/assets/2579b133-df62-4c7f-bf49-1a492e7226af)
 
+---
+#DAY 2 
+"Floorplanning & Placement Techniques in ASIC Design"
+## Utilization Factor (U.F.)
+
+The **Utilization Factor** (U.F.) measures the efficiency of space usage within the core of the chip. It is the ratio of the area occupied by the **netlist** (logical design elements like gates, flip-flops, etc.) to the area of the **core** (the allocated functional area on the chip). A higher utilization factor indicates that the available core area is being used more efficiently.
+
+### Formula:
+Utilization Factor (U.F.)= 
+Area of Core/
+Area of Netlist
+​
 
