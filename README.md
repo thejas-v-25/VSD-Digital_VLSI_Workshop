@@ -45,8 +45,9 @@ This repository contains materials, resources, and examples from the Digital VLS
 ## **Invoking OpenLane in the Terminal**
 
 To invoke **OpenLane**, use the following steps in your terminal:
+![1_a](https://github.com/user-attachments/assets/22dca635-c66e-4d31-8717-d8981c07bc2c)
 
-```bash
+```
 # Navigate to the working directory
 cd ~/Desktop
 cd work/tools/
@@ -65,4 +66,29 @@ docker
 ./flow.tcl -interactive
 
 # Load OpenLane package
-package require openlane '''
+package require openlane
+```
+![2_a](https://github.com/user-attachments/assets/e0d5e347-d98a-4a0c-bb3d-4c811b47f5dc)
+
+### **Calculating Flop Ratio**
+
+The **Flop Ratio** is calculated using the following formula:
+
+\[
+\text{Flop Ratio} = \frac{\text{Number of D Flip-Flops}}{\text{Total Cells}}
+\]
+
+Where:  
+- **D Flip-Flops (DFF)** = 1613  
+- **Total Cells** = 14876  
+
+Thus, the **Flop Ratio** is:
+
+\[
+\text{Flop Ratio} = \frac{1613}{14876} \approx 0.108
+\]
+
+### **Flop Ratio Calculation Diagram**
+![Flop Ratio Calculation Diagram](https://github.com/user-attachments/assets/2579b133-df62-4c7f-bf49-1a492e7226af)
+
+
