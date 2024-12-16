@@ -69,6 +69,7 @@ docker
 package require openlane
 ```
 ![2_a](https://github.com/user-attachments/assets/e0d5e347-d98a-4a0c-bb3d-4c811b47f5dc)
+![1](https://github.com/user-attachments/assets/949e2ead-d423-4515-a461-cc200fb0e983)
 
 ### **Calculating Flop Ratio**
 
