@@ -94,7 +94,7 @@ Flop\ Ratio = \frac{1613}{14876}
 ![Flop Ratio Calculation Diagram](https://github.com/user-attachments/assets/2579b133-df62-4c7f-bf49-1a492e7226af)
 
 ---
-#**DAY 2 **
+##**DAY 2 :**
 **"Floorplanning & Placement Techniques in ASIC Design"**
 ## Utilization Factor (U.F.)
 
