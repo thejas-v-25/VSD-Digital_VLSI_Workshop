@@ -132,4 +132,52 @@ In the context of ASIC design, **Floorplanning** and **Placement** are essential
 These steps ensure that the chip meets performance, power, and area constraints while minimizing signal delays and power consumption.
 
 ---
+## Pre-Placed Cells in VLSI Design  
+
+Pre-placed cells are critical standard cells or macros positioned early in the physical design flow before general placement.  
+
+### Key Types of Pre-Placed Cells  
+- **Clock Tree Cells**: Ensure balanced clock distribution and reduce skew.  
+- **Power Management Cells**: Include decoupling capacitors (de-cap cells) to stabilize power supply and reduce noise.  
+- **Logical Blockages**: Reserve space to prevent routing congestion and optimize power delivery.  
+
+### Benefits  
+- Improved **power integrity**  
+- Reduced **supply noise**  
+- Optimized **clock performance**  
+- Efficient **routing management**
+- ---
+### Command to Run Floorplan in OpenLane  
+
+To view the floorplan and placement using **Magic**, follow these steps:  
+
+```
+# Change directory to floorplan results
+cd results/floorplan  
+
+# Open the design in Magic using the SKY130A PDK
+magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech \
+      lef read ../../tmp/merged.lef \
+      def read picorv32a.placement.def &
+```
+
+![4](https://github.com/user-attachments/assets/b24eb6a7-10d7-4236-b55b-87bd8c95819f)
+![4a](https://github.com/user-attachments/assets/9fb4e906-ac64-4c8e-a870-bee85474a324)
+
+---
+![5](https://github.com/user-attachments/assets/a304f1cf-f33b-481e-9b7a-63e21fd4c443)
+
+---
+
+![7](https://github.com/user-attachments/assets/59a2cdf9-ff2e-4a5e-a3d1-a28af263f0d2)
+
+![8](https://github.com/user-attachments/assets/a7d98a60-1018-4389-bcb3-6a244cfc2db8)
+
+![9](https://github.com/user-attachments/assets/8a1ba59c-6466-4cf6-9785-d451e9297c20)
+
+For navigating in magic layout use the mouse and press V for fitting the window ,
+Z - for zoom ,
+S - for selecting
+
+
 
