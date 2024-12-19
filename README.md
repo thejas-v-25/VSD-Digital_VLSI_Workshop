@@ -188,20 +188,20 @@ S - for selecting
 
 ![12](https://github.com/user-attachments/assets/5c7edb15-c117-4e74-91fc-ae124f2663ac)
 Cell Design and Characterization
-Cell Design:
-In VLSI, a cell is a fundamental building block used to construct digital circuits.
+-Cell Design:
+-In VLSI, a cell is a fundamental building block used to construct digital circuits.
 Cells include basic logic gates (AND, OR, NOT), flip-flops, latches, and more.
-Design Flow:
-Schematic Design: Create a transistor-level circuit for the desired logic.
-Layout Design: Generate a physical layout (arrangement of transistors, metal layers, and vias) while minimizing area and adhering to design rules.
-Verification: Ensure the layout matches the schematic (LVS - Layout vs. Schematic) and meets manufacturing rules (DRC - Design Rule Check).
-Characterization:
-Characterization involves analyzing and modeling the electrical behavior of cells under various conditions.
-Key steps include:
-Delay Calculation: Measure propagation delay for different input transitions and loads.
-Power Analysis: Evaluate dynamic and static power consumption.
-Timing Characterization: Generate timing parameters like setup/hold times and clock-to-output delays.
-Library Generation: Create standard cell libraries (e.g., Liberty files) for use in digital design tools.
+-Design Flow:
+ -Schematic Design: Create a transistor-level circuit for the desired logic.
+ -Layout Design: Generate a physical layout (arrangement of transistors, metal layers, and vias) while minimizing area and adhering to design rules.
+ -Verification: Ensure the layout matches the schematic (LVS - Layout vs. Schematic) and meets manufacturing rules (DRC - Design Rule Check).
+-Characterization:
+ -Characterization involves analyzing and modeling the electrical behavior of cells under various conditions.
+-Key steps include:
+ -Delay Calculation: Measure propagation delay for different input transitions and loads.
+ -Power Analysis: Evaluate dynamic and static power consumption.
+ -Timing Characterization: Generate timing parameters like setup/hold times and clock-to-output delays.
+ -Library Generation: Create standard cell libraries (e.g., Liberty files) for use in digital design tools.
 
 ##**DAY -3**
 
