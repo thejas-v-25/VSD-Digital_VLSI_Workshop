@@ -185,7 +185,10 @@ S - for selecting
 ![11](https://github.com/user-attachments/assets/8abd8937-a57b-4123-b6a0-ca3cbb17057f)
 
 #Preview of the placement in the magic tool in openlane
-
+```
+  run_placement
+# in openalne directory in docker mode
+```
 ![12](https://github.com/user-attachments/assets/5c7edb15-c117-4e74-91fc-ae124f2663ac)
 ### Cell Design and Characterization
 
